@@ -1,5 +1,5 @@
 # iTag_BLE_Button
-Use an "iTag" device as a remote control button or switch using BLE controlled by an ESP32  
+Using an "iTag" device as a remote control button or switch using BLE controlled by an ESP32  
 
 # iTag Device
 The "iTag" is low cost BLE locator tag.  When on, the iTag provides a bluetooth low energy acting as a server and provides the services.
