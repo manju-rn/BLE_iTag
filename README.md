@@ -6,6 +6,7 @@ The "iTag" is low cost BLE locator tag.  When on, the iTag provides a bluetooth 
 The 3 useful services are:
 1. An ESP can be programed to connect as a client and request that the tag beep, as a means of locating a lost item.  The tag will also beep when the connection is dropped as a means to remind you that you're leaving an item behind.
 2. Using the iTag button, it can send the notification on a specific BLE Characteristic.  This is similar function as used as a shutter release or to activate a voice recorder on the host phone. Paired with any other component in ESP (or integration with Home Automation software, such as Home Assistant), any actions based on this button event can be triggered
+3. Get the battery %age
 
 # Operation
 - The device will search for known iTag devices.  During this search the LED will blink.
